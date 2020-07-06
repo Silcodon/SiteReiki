@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+	<title>Bruno Marques Terapias</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<link rel="stylesheet" type="text/css" href="contactos.css">
+	<!-- add icon link -->
+    <link rel = "icon" href = "logo.png" type = "image/x-icon"> 
+	<script type="text/javascript" src="contactos.js" defer="true"></script>
+	
+</head>
+
+<body>
+	<header>
+		<div class="container">
+				<nav>
+
+					<button id = home>Inicio</button>
+					<button class="collapsible">Terapias</button>
+					<div class="contentTerapias">
+					  <li><a href="Reiki.html">Reiki</a></li>
+					  <li><a href="TM.html">Terapia Multidimensional</a></li>
+					</div>
+					<button class="collapsible">Cursos</button>
+					<div class="contentCursos">
+					  <li><a href="CaminhoReiki.html">Caminho do Reiki</a></li>
+					  <li><a href="CaminhoAnjos.html">Caminho dos Anjos</a></li>
+					  <li><a href="CaminhoMestre.html">Caminho dos Mestres Ascensos</a></li>
+					  <li><a href="CaminhoBuda.html">Caminho do Buda</a></li>
+					  <li><a href="Gateway.html">Programa Avançado Gateway</a></li>
+					</div>
+					<button id= artigos>Artigos</button>
+					<button id= eu>Sobre</button>
+					<button id= contactos>Contactos</button>
+
+
+				</nav>
+				
+				<figure>
+					<img src="logo.png">
+				</figure>
+
+					<p>Bruno Marques<br>
+					Terapias</p>
+
+				
+
+		</div>
+	
+	</header>
+	<main>
+		<script type="text/javascript">
+			document.getElementById("home").addEventListener("click",function(){window.location.href="site.html"},false);
+			document.getElementById("contactos").addEventListener("click",function(){window.location.href="contactos.html"},false);
+
+document.getElementById("eu").addEventListener("click",function(){window.location.href="eu.html"},false);
+document.getElementById("artigos").addEventListener("click",function(){window.location.href="artigos.html"},false);
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+
+
+			    var content = this.nextElementSibling;
+			    if (content.style.display === "block") {
+			      content.style.display = "none";
+			      content.previousElementSibling.style.borderBottom="solid";
+			      content.previousElementSibling.style.borderBottomLeftRadius="8px";
+			      content.previousElementSibling.style.borderBottomRightRadius="8px";
+			      
+			    } else {
+			      content.style.display = "block";
+			      content.style.borderTopLeftRadius = "2px";
+			      content.previousElementSibling.style.borderBottom="thick solid #A901DB";
+			      content.previousElementSibling.style.borderBottomLeftRadius=0;
+			      content.previousElementSibling.style.borderBottomRightRadius=0;
+			    }
+			  });
+			}
+
+		</script>
+		<div class="header1">
+			<h1> Contactos </h1>
+
+
+	</div>
+	<div id=map>
+	<p><iframe src="https://maps.google.pt/maps?f=q&amp;source=s_q&amp;hl=pt-PT&amp;geocode=&amp;q=Rua de Agramonte 48,+Porto&amp;aq=&amp;sll=41°09'22.1,8°37'50.8&amp;sspn=10.120886,19.753418&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Rua de Agramonte 48,+Porto&amp;ll=41°09'22.1,8°37'50.8&amp;spn=0.008029,0.013733&amp;z=16&amp;output=embed" width="47%" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe><br />
+<small><a style="color: #0000ff; text-align: left;" href="https://maps.google.pt/maps?f=q&amp;source=embed&amp;hl=pt-PT&amp;geocode=&amp;q=Rua de Agramonte 48,+Porto&amp;aq=&amp;sll=41°09'22.1,-17.047719&amp;sspn=10.120886,19.753418&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Rua de Agramonte 48,+Porto&amp;ll=41°09'22.1,8°37'50.8&amp;spn=0.008029,0.013733&amp;z=16"></a></small></p></div>
+    
+	    <div id=header2>
+	    <p><strong>Bruno Marques Terapias</strong><br />
+		Rua de Agramonte 48 &#8211; 12ºEsq<br />
+		4100-146 Porto</p>
+	</div>
+	<div id=horario>
+	<p><strong>Horário de funcionamento:</strong><br />
+		Todos os dias (inclui sábados e domingos) das 10:00 às 20:00.<br />
+		Consultas mediante marcação.</p></div>
+		<div id=marcaçoes>
+		<p><strong>Marcações:</strong><br />
+		<a href="mailto:bruno.marques.of@gmail.com">bruno.marques.of@gmail.com</a><br />
+		Tlm: (+351) 916 926 764<br />
+		Whatsapp: 00351 916 926 764<br />
+		<a name="marcar"></a>Facebook: <a title="Bruno Marques Terapias" href="https://www.facebook.com/bruno.lou.7">https://www.facebook.com/bruno.lou.7</a></p></div>
+
+
+		</main>
+		<div class="container2">
+		</div>
+</body>
+
+
+</html>

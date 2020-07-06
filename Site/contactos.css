@@ -1,0 +1,190 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+		background-image: url(backgr.png), radial-gradient(circle, #e6e6e6, #fafafa);
+
+}
+
+header{
+	margin: auto;
+	background-image: url(backgr.png), radial-gradient(circle, #A901DB, #5F04B4);
+	position: relative;
+	height:150px;
+}
+
+main{
+	position:relative;
+	margin-top: 0px;
+	background-image: url(backgr.png), radial-gradient(circle, #e6e6e6, #fafafa);
+
+
+}
+#home{
+	margin-left: 0px;
+}
+
+.container button{
+	cursor: pointer;
+	background-color: #A901DB;
+    background-repeat:no-repeat;
+    border: none;
+    border-top-style:solid;
+    border-bottom-style:solid;
+	width: 200px;
+	height: 52px;
+	font-family: Times;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+	margin-top: 8px;
+	margin-left: 25px;
+
+}
+
+.container button:hover{
+	background-color: #A901DB;
+}
+
+.container button:active{
+	background-color: #7401DF;
+	color:#A901DB;
+}
+
+
+
+p{
+	font-family: Helvetica;
+}
+
+
+.container figure{
+	margin-top: -0.5%;
+	margin-left: 4%;
+	position: absolute;
+}
+
+.container p{
+	position: absolute;
+	margin-top: 1.5%;
+	margin-left: 13%; 
+	font-size: 30px;
+	font-family: cursive;
+	color: #e6e6e6;
+
+}
+
+
+
+
+nav{
+	font-size: 11px;
+	color: white;
+	position: absolute;
+	text-align: justify;
+	margin-left: 25%;
+	margin-right: 15px;
+	bottom: 50px;
+}
+
+.header1{
+	margin-top: 50px;
+	margin-left: 24.5%;
+	text-align: center;
+	padding: 10px;
+	height: 50%;
+	width: 50%;
+	font-family: Times;
+	font-weight: bold;
+	border-radius: 8px;
+	background-image: url(backgr.png), radial-gradient(circle, #A901DB, #5F04B4);
+
+}
+
+#map {
+        margin-left:35%;
+        margin-top: 25px;
+      }
+
+#header2{
+	font-size: 15px;
+	margin-top: 35px;
+	margin-left: 25%;
+}
+
+#marcaçoes{
+	margin-top: 15px;
+	margin-left: 25%;
+	margin-bottom: 50px;
+}
+
+#horario{
+	margin-top: 45px;
+	margin-left: 25%;
+
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #A901DB;
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #A901DB;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+/* Style the collapsible content. Note: hidden by default */
+.contentTerapias {
+	position: absolute;
+	color:black;
+  margin-left:225px;
+  display: none;
+  font-size: 20px;
+  overflow: visible;
+  background-color:#A901DB;
+  border-radius: 10px;
+  z-index: 6;
+
+}
+
+.contentCursos {
+  position: absolute;
+  color:black;
+  margin-left:445px;
+  display: none;
+  font-size: 20px;
+  overflow: visible;
+  background-color:#A901DB;
+  border-radius: 10px;
+  z-index: 6;
+
+}
+
+
+a {
+     text-decoration: none;
+     color:black;
+    }
+
+a:active {
+     text-decoration: none;
+     color:violet;
+    }
+
+
+
+.container2{
+	margin: auto;
+	background-image: url(backgr.png), radial-gradient(circle, #A901DB, #5F04B4);
+	position: relative;
+	height:50px;
+}

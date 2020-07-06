@@ -1,0 +1,440 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-image: url(backgr.png), radial-gradient(circle, #e6e6e6, #fafafa);
+
+}
+
+header{
+	margin: auto;
+	background-image: url(backgr.png), radial-gradient(circle, #A901DB, #5F04B4);
+	position: relative;
+	height:150px;
+}
+
+main{
+	position:relative;
+	margin-top: 0px;
+	background-image: url(backgr.png), radial-gradient(circle, #e6e6e6, #fafafa);
+
+
+}
+#home{
+	margin-left: 0px;
+}
+
+.container button{
+	cursor: pointer;
+	background-color: #A901DB;
+    background-repeat:no-repeat;
+    border: none;
+    border-top-style:solid;
+    border-bottom-style:solid;
+	width: 200px;
+	height: 52px;
+	font-family: Times;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+	margin-top: 8px;
+	margin-left: 25px;
+
+}
+
+.container button:hover{
+	background-color: #A901DB;
+}
+
+.container button:active{
+	background-color: #7401DF;
+	color:#A901DB;
+}
+
+
+
+p{
+	font-family: Helvetica;
+}
+
+
+.container figure{
+	margin-top: -0.5%;
+	margin-left: 4%;
+	position: absolute;
+}
+
+.container p{
+	position: absolute;
+	margin-top: 1.5%;
+	margin-left: 13%; 
+	font-size: 30px;
+	font-family: cursive;
+	color: #e6e6e6;
+
+}
+
+
+
+
+nav{
+	font-size: 11px;
+	color: white;
+	position: absolute;
+	text-align: justify;
+	margin-left: 25%;
+	margin-right: 15px;
+	bottom: 50px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+img{
+	max-height: 581.53px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#descricaonav{
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	margin:auto;
+	font-family: "Courier New", Monospace;
+	margin-bottom: 20px;
+	margin-top: 35px;
+
+}
+
+#descricaonav p{
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	margin:auto;
+	width: 70%;
+	font-family: "Courier New", Monospace;
+	margin-bottom: 30px;
+	margin-top: 35px;
+
+}
+
+.navegacaocursos button{
+	position: relative;
+	cursor: pointer;
+	left:25%;
+	margin-left:5%;
+	background-color: white;
+    background-repeat:no-repeat;
+    border: solid;
+	width: 300px;
+	height: 400px;
+	font-family: Times;
+	font-size: 20px;
+	border-radius: 8px;
+}
+
+.navegacaocursos button:hover {
+	-webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+.navegacaocursos button p{
+	position: relative;
+	bottom:120px;
+	margin-top: 20px;
+  font-weight: bold;
+	text-align: center;
+}
+
+.navegacaocursos button #p{
+	position: relative;
+	bottom:80px;
+	text-align: center;
+}
+
+.navegacaocursos{
+	margin-bottom: 50px;
+
+}
+
+.navegacaocursos button img{
+	position: relative;
+	padding-top: 80px;
+	border-radius: 10px;
+	bottom:100px;
+}
+
+#img1texto{
+	text-align: left;
+	font-size: 25px;
+	width:50%;
+	margin-top: 40%;
+	color: white;
+	font-style: italic;
+	font-family: "Lucida Console", Monospace;
+  	animation: fadeIn ease 1s;
+  	-webkit-animation: fadeIn ease 1s;
+  	-moz-animation: fadeIn ease 1s;
+  	-o-animation: fadeIn ease 1s;
+  	-ms-animation: fadeIn ease 1s;
+  	border-radius: 8px;
+
+}
+#descriçao1{
+	text-align: left;
+	font-size: 25px;
+	width:50%;
+  text-align: center;
+	color: black;
+	margin: auto;
+	font-style: italic;
+	background-color:white;
+	font-family: "Lucida Console", Monospace;
+  	animation: fadeIn ease 1s;
+  	-webkit-animation: fadeIn ease 2s;
+  	-moz-animation: fadeIn ease 2s;
+  	-o-animation: fadeIn ease 2s;
+  	-ms-animation: fadeIn ease 2s;
+  	border-radius: 8px;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.container2{
+	margin: auto;
+	background-image: url(backgr.png), radial-gradient(circle, #A901DB, #5F04B4);
+	position: relative;
+	height:50px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #A901DB;
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #A901DB;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.contentTerapias {
+	position: absolute;
+	color:black;
+  margin-left:225px;
+  display: none;
+  font-size: 20px;
+  overflow: visible;
+  background-color:#A901DB;
+  border-radius: 10px;
+  z-index: 6;
+
+}
+
+.contentCursos {
+  position: absolute;
+  color:black;
+  margin-left:445px;
+  display: none;
+  font-size: 20px;
+  overflow: visible;
+  background-color:#A901DB;
+  border-radius: 10px;
+  z-index: 6;
+
+}
+
+a {
+     text-decoration: none;
+     color:black;
+    }
+
+a:active {
+     text-decoration: none;
+     color:violet;
+    }
+
+
+.cursos{
+  height: 250px;
+    background-image: url(backgr.png), radial-gradient(circle, #ffffff, #ffffff);
+
+}
+
+.cursos button{
+  position: relative;
+  cursor: pointer;
+  margin-left:8%;
+  float:left;
+  background-color: white;
+    background-repeat:no-repeat;
+    border: solid;
+  width: 200px;
+  height:75px;
+  font-family: Times;
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+.cursos button:hover {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+.cursos button p{
+  position: relative;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.cursos h2{
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}

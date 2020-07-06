@@ -1,0 +1,272 @@
+
+.header1{
+  margin-top: 50px;
+  margin-left: 24.5%;
+  text-align: center;
+  padding: 10px;
+  height: 50%;
+  width: 50%;
+  font-family: Times;
+  font-weight: bold;
+  border-radius: 8px;
+  background-image: url(backgr.png), radial-gradient(circle, #A901DB, #5F04B4);
+
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+header{
+  margin: auto;
+  background-image: url(backgr.png), radial-gradient(circle, #A901DB, #5F04B4);
+  position: relative;
+  height:150px;
+}
+
+main{
+  position:relative;
+  margin-top: 0px;
+  background-image: url(backgr.png), radial-gradient(circle, #e6e6e6, #fafafa);
+}
+
+body{
+    background-image: url(backgr.png), radial-gradient(circle, #e6e6e6, #fafafa);
+
+}
+
+#home{
+  margin-left: 0px;
+}
+
+.container button{
+  cursor: pointer;
+  background-color: #A901DB;
+    background-repeat:no-repeat;
+    border: none;
+    border-top-style:solid;
+    border-bottom-style:solid;
+  width: 200px;
+  height: 52px;
+  font-family: Times;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-left: 25px;
+
+}
+
+.container button:hover{
+  background-color: #A901DB;
+}
+
+.container button:active{
+  background-color: #7401DF;
+  color:#A901DB;
+}
+
+
+
+p{
+  font-family: Helvetica;
+}
+
+
+.container figure{
+  margin-top: -0.5%;
+  margin-left: 4%;
+  position: absolute;
+}
+
+.container p{
+  position: absolute;
+  margin-top: 1.5%;
+  margin-left: 13%; 
+  font-size: 30px;
+  font-family: cursive;
+  color: #e6e6e6;
+
+}
+
+.container a {
+     text-decoration: none;
+     color:black;
+    }
+
+.container a:active {
+     text-decoration: none;
+     color:violet;
+    }
+
+
+nav{
+  font-size: 11px;
+  color: white;
+  position: absolute;
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 15px;
+  bottom: 50px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.container2{
+  position: fixed;
+  background-image: url(backgr.png), radial-gradient(circle, #A901DB, #5F04B4);
+  position: relative;
+  height:50px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #A901DB;
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #A901DB;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.contentTerapias {
+  position: absolute;
+  color:black;
+  margin-left:225px;
+  display: none;
+  font-size: 20px;
+  overflow: visible;
+  background-color:#A901DB;
+  border-radius: 10px;
+  z-index: 6;
+
+}
+
+.contentCursos {
+  position: absolute;
+  color:black;
+  margin-left:445px;
+  display: none;
+  font-size: 20px;
+  overflow: visible;
+  background-color:#A901DB;
+  border-radius: 10px;
+  z-index: 6;
+
+}
+
+a {
+     text-decoration: none;
+     color:#cb42f5;
+    }
+
+a:active {
+     text-decoration: none;
+     color:violet;
+    }
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 15px;
+}
+
+#up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  
+}
+
+#down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  display:none;
+}
+
+#Conteudo{
+  font-size: 15px;
+  text-align: left;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-bottom: 25px;
+  margin-right: 10%;
+  padding-top: 5px;
+  font-family: Times;
+}
