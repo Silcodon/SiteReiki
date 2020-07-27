@@ -95,6 +95,7 @@ nav{
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  height: 581.53px;
   position: relative;
   margin: auto;
 }
@@ -127,6 +128,11 @@ img{
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
@@ -250,6 +256,9 @@ img{
 
 .navegacaocursos{
 	margin-bottom: 50px;
+    background-image: url(backgr.png), radial-gradient(circle, #ffffff, #ffffff);
+    padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 
@@ -261,10 +270,11 @@ img{
 }
 
 #img1texto{
+  cursor: default;
 	text-align: left;
 	font-size: 25px;
 	width:50%;
-	margin-top: 40%;
+	margin-top: 25%;
 	color: white;
 	font-style: italic;
 	font-family: "Lucida Console", Monospace;
@@ -284,7 +294,6 @@ img{
 	color: black;
 	margin: auto;
 	font-style: italic;
-	background-color:white;
 	font-family: "Lucida Console", Monospace;
   	animation: fadeIn ease 1s;
   	-webkit-animation: fadeIn ease 2s;
@@ -401,7 +410,6 @@ a:active {
 
 .cursos{
   height: 250px;
-    background-image: url(backgr.png), radial-gradient(circle, #ffffff, #ffffff);
 
 }
 
@@ -435,6 +443,89 @@ a:active {
 
 .cursos h2{
   text-align: center;
-  padding-top: 20px;
   margin-bottom: 50px;
+}
+
+.container10 {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  float: left;
+  color: white;
+  cursor: pointer;
+}
+
+
+#img2texto{
+  cursor: default;
+  text-align: left;
+  font-size: 15px;
+  width:50%;
+  margin-bottom: 5%;
+  color: black;
+  font-style: italic;
+  font-family: "Lucida Console", Monospace;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+    border-radius: 8px;
+
+}
+
+#img3texto{
+  cursor: default;
+  text-align: left;
+  font-size: 15px;
+  width:50%;
+  margin-bottom: 5%;
+  margin-left: 52%;
+  color: white;
+  font-style: italic;
+  font-family: "Lucida Console", Monospace;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+    border-radius: 8px;
+
+}
+
+#img4texto{
+  cursor: default;
+  text-align: left;
+  font-size: 20px;
+  width:50%;
+  margin-bottom: 5%;
+  margin-left: 52%;
+  color: black;
+  font-style: italic;
+  font-family: "Lucida Console", Monospace;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+    border-radius: 8px;
+
+}
+
+#img5texto{
+  cursor: default;
+  text-align: left;
+  font-size: 20px;
+  width:50%;
+  margin-bottom: 5%;
+  color: white;
+  font-style: italic;
+  font-family: "Lucida Console", Monospace;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+    border-radius: 8px;
+
 }
