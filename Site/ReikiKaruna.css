@@ -9,7 +9,6 @@
   font-family: Times;
   font-weight: bold;
   border-radius: 8px;
-  background-image: url(backgr.png), radial-gradient(circle, #A901DB, #5F04B4);
 
 }
 
@@ -314,5 +313,116 @@ i {
 
 #Conjunto{
   margin-bottom: 25px;
+  font-family: Times;
+}
+
+
+#Conteudo2{
+  position: relative;
+  font-size: 15px;
+  margin: auto;
+  text-align: left;
+  max-width: 100%;
+  margin-top: 1%;
+  margin-bottom: 75px;
+  padding-top: 5px;
+  font-family: Times;
+}
+
+#Conteudo2 p{
+  overflow: visible;
+  max-width: 70%;
+}
+
+#Conteudo2 img{
+  position: absolute;
+  width: 20%;
+  float: right;
+  left: 75%;
+  top: 0;
+  height: 100%;
+}
+
+#Conteudo3{
+  position: relative;
+  font-size: 15px;
+  margin: auto;
+  text-align: left;
+  max-width: 100%;
+  margin-top: 1%;
+  margin-bottom: 75px;
+  padding-top: 5px;
+  font-family: Times;
+}
+
+#Conteudo3 h2{
+  text-align: center;
+  font-size: 25px;
+}
+
+#Conteudo3 h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#Conteudo h4{
+  font-size: 17px;
+  color: red;
+}
+
+#Conteudo h5{
+  font-size: 17px;
+  color: #c0c0c0;
+}
+
+#Conteudo h6{
+  font-size: 17px;
+  color: blue;
+}
+
+#Conteudo h7{
+  font-size: 17px;
+  color: yellow;
+}
+
+#Conteudo h8{
+  font-size: 17px;
+  color: green;
+}
+
+#Conteudo h9{
+  font-size: 17px;
+  color: #ee82ee;
+}
+
+#Conteudo h10{
+  font-size: 17px;
+  color: orange;
+}
+
+#Conteudo h11{
+  font-size: 17px;
+  color: pink;
+}
+
+#Conteudo h12{
+  font-size: 17px;
+  color: gray;
+}
+
+#Conteudo h13{
+  font-size: 17px;
+  color: black;
+}
+
+
+#Conteudo4{
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  max-width: 100%;
+  margin-top: 1%;
+  margin-bottom: 75px;
+  padding-top: 5px;
   font-family: Times;
 }
