@@ -74,14 +74,13 @@ function carousel() {
 
 document.getElementById("home").addEventListener("click",function(){window.location.href="site.html"},false);
 document.getElementById("contactos").addEventListener("click",function(){window.location.href="contactos.html"},false);
-document.getElementById("reiki").addEventListener("click",function(){window.location.href="reiki.html"},false);
-document.getElementById("reiki2").addEventListener("click",function(){window.location.href="reiki.html"},false);
+document.getElementById("reiki").addEventListener("click",function(){window.location.href="Reiki.html"},false);
+document.getElementById("reiki2").addEventListener("click",function(){window.location.href="Reiki.html"},false);
 document.getElementById("CaminhoReiki").addEventListener("click",function(){window.location.href="CaminhoReiki.html"},false);
 document.getElementById("CaminhoAnjos").addEventListener("click",function(){window.location.href="CaminhoAnjos.html"},false);
 document.getElementById("CaminhoMestre").addEventListener("click",function(){window.location.href="CaminhoMestre.html"},false);
 document.getElementById("Caminho1").addEventListener("click",function(){window.location.href="CaminhoBuda.html"},false);
 document.getElementById("Caminho2").addEventListener("click",function(){window.location.href="Gateway.html"},false);
-document.getElementById("CaminhoExtensao").addEventListener("click",function(){window.location.href="AnjosExtensao.html"},false);
 document.getElementById("TM").addEventListener("click",function(){window.location.href="TM.html"},false);
 document.getElementById("TM2").addEventListener("click",function(){window.location.href="TM.html"},false);
 document.getElementById("eu").addEventListener("click",function(){window.location.href="eu.html"},false);

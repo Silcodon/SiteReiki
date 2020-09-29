@@ -46,8 +46,9 @@ body{
     border: none;
     border-top-style:solid;
     border-bottom-style:solid;
-  width: 200px;
-  height: 52px;
+    max-width: 200px;
+  width: 20%;
+  height: 50px;
   font-family: Times;
   font-size: 20px;
   font-weight: bold;
@@ -73,21 +74,55 @@ p{
 }
 
 
-.container figure{
-  margin-top: -0.5%;
-  margin-left: 4%;
+.container5{
   position: absolute;
+  width: 25%;
+  min-width: 300px;
 }
 
-.container p{
-  position: absolute;
-  margin-top: 1.5%;
-  margin-left: 13%; 
-  font-size: 30px;
-  font-family: cursive;
+.container5 figure{
+  position: relative;
+  margin-top: 0.5%;
+  margin-left: 8%;
+}
+
+.container5 p{
+  position:relative;
+  width: 25%;
+  margin-top: -30%;
+  margin-left: 45%;
+  font-size:calc(12px + 1vw);
   color: #e6e6e6;
+  /* emblema-one-regular - latin */
+  @font-face {
+  font-family: 'Emblema One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/emblema-one-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Emblema One'), local('EmblemaOne-Regular'),
+       url('../fonts/emblema-one-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/emblema-one-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/emblema-one-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/emblema-one-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/emblema-one-v9-latin-regular.svg#EmblemaOne') format('svg'); /* Legacy iOS */
+  }
 
 }
+
+
+
+
+nav{
+  font-size: 11px;
+  color: white;
+  position: absolute;
+  width: 75%;
+  text-align: justify;
+  margin-left: 25%;
+  margin-top: 50px;
+  overflow: visible;
+}
+
 
 .container a {
      text-decoration: none;
@@ -98,17 +133,6 @@ p{
      text-decoration: none;
      color:violet;
     }
-
-nav{
-  font-size: 11px;
-  color: white;
-  position: absolute;
-  text-align: justify;
-  margin-left: 25%;
-  margin-right: 15px;
-  bottom: 50px;
-}
-
 
 * {box-sizing:border-box}
 
